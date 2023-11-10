@@ -11,7 +11,7 @@
 
         body {
             font-family: Arial, sans-serif;
-            background: url('/media/images/simple.png/') no-repeat center/cover,url('{{k}}'),rgba(7, 249, 249, 0.941);
+            background: url('/media/images/fine.jpg') no-repeat center/cover,url('{{k}}'),rgba(132, 7, 249, 0.941);
             color: #333;
             margin: 0;
             padding: 0;
@@ -22,7 +22,7 @@
         .header {
             text-align: center;
             padding: 20px;
-            background-color: #0cdffafd;
+            background-color: #fa830cfd;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
@@ -36,7 +36,7 @@
         }
 
         .item {
-            background-color: #ffffffc9;
+            background-color: #7193c5c9;
             padding: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
@@ -70,7 +70,7 @@
             display: inline-block;
             margin-top: 10px;
             padding: 8px 20px;
-            background-color: #007bff;
+            background-color: #00ff6e;
             color: #ffffff;
             text-decoration: none;
             border-radius: 4px;
@@ -134,7 +134,7 @@
         <form action="/search/" method="POST">
             {% csrf_token %}    
             <i class=></i>
-            <li> <input type="text" placeholder="      Find anything From anywhere   " id="search" name="search" ></li>
+            <li> <input type="text" placeholder="  Search for content   " id="search" name="search" ></li>
             <li><div class="submit-button" onclick="submitForm()"><i class="fa-brands fa-searchengin fa-beat fa-2xl"></i></div></li>
             </li>      
              
